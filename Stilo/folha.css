@@ -1,0 +1,166 @@
+@import "reset.css";
+
+@font-face{
+    font-family: Aquario;
+    src: url(Aquatico-Regular.otf);
+}
+
+@font-face{
+    font-family: Buffalo;
+    src: url(BuffaloScript-Regular.otf);
+}
+body{
+    background: url(../imgs/3e52990574aaace2842aef46537d6287.jpg);
+    background-size: cover
+}
+.containe{
+    margin: 0 auto;
+    width: 1100px;
+}
+
+#IndexMenu{
+    height: 50px;
+    border-bottom: #ffff00 4px solid;
+    overflow: hidden;
+    background: url(../imgs/3e52990574aaace2842aef46537d6287.jpg);
+    background-size: 400px;
+}
+
+#IndexMenu .Logo {
+    font-family: Aquario;
+    font-size: 35px;
+    text-decoration: none;
+    padding-top: 6px;
+    color: #fff;
+    float: left;
+}
+
+#MenuIndex{
+    float: left;
+    width: 600px;
+}
+
+#MenuIndex a{
+    float: left;
+    font-family: Aquario;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 6px;
+    padding: 10px;
+}
+
+#MenuIndex a:hover{
+    text-decoration: underline;
+}
+
+#banner{
+    height: 300px;
+    width: 100%;
+    background: url(../imgs/banner.png);
+    background-position: center;
+    border-bottom: #ffff00 4px solid;
+}
+
+#OqueS{
+    background: rgba(0,0,0,0.7);
+    border: 1px solid #fff;
+    padding: 10px;
+    color: #fff;
+    font-family: sans-serif;
+    line-height: 25px;
+    width: 800px;
+    margin: 10px auto;
+}
+
+
+#OqueS h1{
+    color: #ffff00;
+    font-family: Buffalo;
+    font-size: 70px;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+
+.Caixa{
+    background: rgba(0,0,0,0.7);
+    border: 1px solid #fff;
+    padding: 10px;
+    color: #fff;
+    font-family: sans-serif;
+    line-height: 25px;
+    width: 800px;
+    margin: 10px auto;
+}
+
+
+.Caixa h1{
+    color: #ffff00;
+    font-family: Buffalo;
+    font-size: 70px;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+
+#FormularioCadastro form{
+    width: 600px;
+    margin: 0 auto;
+}
+
+#FormularioCadastro form label{
+    display: block;
+    width: 100%;
+}
+
+#FormularioCadastro form input{
+    display: block;
+    width: 100%;
+    font-family: Aquario;
+    padding: 5px;
+}
+
+#FormularioCadastro form button{
+    display: block;
+    width: 103%;
+    font-family: Aquario;
+    padding: 5px;
+}
+#FormularioLogin form{
+    width: 600px;
+    margin: 0 auto;
+}
+
+#FormularioLogin form label{
+    display: block;
+    width: 100%;
+}
+
+#FormularioLogin form input{
+    display: block;
+    width: 100%;
+    font-family: Aquario;
+    padding: 5px;
+}
+
+#FormularioLogin form button{
+    display: block;
+    width: 103%;
+    font-family: Aquario;
+    padding: 5px;
+}
+
+.GrupoForm{
+    padding: 6px;
+}
+
+footer{
+    background: #ffff00;
+    border-top: 4px solid #fff;
+    font-family: sans-serif;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    line-height: 25px;
+}
