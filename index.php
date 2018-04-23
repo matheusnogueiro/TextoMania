@@ -6,6 +6,12 @@
         <link href="Stilo/folha.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
+        <?php
+        session_start();
+        if(isset($_SESSION['usuario'])){
+            header('Location: home.php');
+        }
+        ?>
         <header id="IndexMenu">
             <section class="containe">
                 <a class="Logo" href="index.php">
@@ -43,7 +49,7 @@
                 
                 <section id="FormularioLogin" class="Caixa">
                     <h1>Login</h1>
-                    <form>
+                    <form method="post" action="PHP/userbd.php">
                         
                         <section class="GrupoForm">
                             <label>Usuario:</label>
@@ -61,9 +67,9 @@
                     </form>
                 </section>
                 
-                <section id="FormularioCadastro" class="Caixa">
+                <section id="FormularioCadastro" class="Caixa" >
                     <h1>Cadastro</h1>
-                    <form>
+                    <form method="post" action="PHP/userbd.php" enctype="multipart/form-data">
                         
                         <section class="GrupoForm">
                             <label>Nome:</label>
